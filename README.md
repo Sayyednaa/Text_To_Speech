@@ -21,11 +21,9 @@ pip install gtts
 ```python
 <----Buttons---->
 Output Foler:- "Press This Button To Select The Folder You Want To Save The Output Mp3 File"
-Submit :- 'Press This Button after filling all the information.
-This will generate a mp3 file of your text in selected folder'
+Submit :- 'Press This Button after filling all the information.This will generate a mp3 file of your text in selected folder'
 Clear :- 'It will clear all the fields'
-Play:- "Press This Button After Generating The Mp3 File.
-It Will Play The Generated Mp3 File."
+Play:- "Press This Button After Generating The Mp3 File.It Will Play The Generated Mp3 File."
 
 
 
@@ -43,6 +41,3 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
