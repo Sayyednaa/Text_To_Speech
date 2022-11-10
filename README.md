@@ -1,5 +1,4 @@
-# Text_To_Speech
-A GUI Text To Speech(Mp3) Converter in Python
+
 # TEXT TO SPEECH
 A GUI BASED PYTHON APPLICATION FOR CONVERTING YOUR TEXTS TO MP3
 
