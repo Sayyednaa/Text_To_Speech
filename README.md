@@ -10,10 +10,7 @@ A GUI BASED PYTHON APPLICATION FOR CONVERTING YOUR TEXTS TO MP3
 Run the commands below for a awesome experience
 
 ```bash
-pip install mutagen
-pip install pygame
-pip install keyboard
-pip install gtts
+pip install -r requirements.txt
 ```
 
 ## Usage
