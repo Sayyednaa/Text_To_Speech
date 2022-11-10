@@ -24,14 +24,7 @@ class Main:
         self.root.geometry("600x400+500+200")
         self.root.resizable(False,False)
         self.root.title("Text To Mp3")
-        # self.root.config(bg='black')
-        with open("conf.text","rt+") as f:
-            l1=f.readlines()[0]
-            l2=l1.split(":")
-            self.lang=l2[1]
-            
-
-            # print(self.cont)
+        
 
 
        
@@ -112,17 +105,15 @@ class Main:
                 mixer.init()
                 mixer.music.load(self.filename)
                 mixer.music.play()
-                if keyboard.on_press()=='s':
+                if keyboard.read_key()=='s':
                     mixer.music.stop()
                     mixer.music.unload()
                 
-                
-                
-                
-                audio = MP3(self.filename)
-                length=audio.info.length
-                time.sleep(length)
-                mixer.music.unload()
+                else:
+                    audio = MP3(self.filename)
+                    length=audio.info.length
+                    time.sleep(length)
+                    mixer.music.unload()
         except:
            messagebox.showerror(title="Error", message="Generate the audio first then play")
             
