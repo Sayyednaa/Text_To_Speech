@@ -16,6 +16,8 @@ pip install -r requirements.txt
 ## Usage
 
 ```python
+#Press 's' to stop the playing mp3
+
 <----Buttons---->
 Output Foler:- "Press This Button To Select The Folder You Want To Save The Output Mp3 File"
 Submit :- 'Press This Button after filling all the information.This will generate a mp3 file of your text in selected folder'
