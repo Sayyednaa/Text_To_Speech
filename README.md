@@ -31,6 +31,8 @@ Attention !
 ```
 Internet Connection is required to run the software
 
+#May not work on some languages
+
 ```
 
 ## Contributing
